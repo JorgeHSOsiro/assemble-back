@@ -6,7 +6,7 @@ const characterRouter = require('./routers/characterRouters');
 const comicsRouter = require('./routers/comicsRouter');
 
 const app = express();
-const port = 3001;
+const port = 3306;
 
 app.use(cors());
 app.use(express.json());
